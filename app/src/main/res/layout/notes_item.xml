@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp">
+
+    <RelativeLayout
+
+        android:padding="8dp"
+        android:background="#18E5EC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="marquee"
+            android:text="DERS ADI"
+            android:textSize="20sp">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30sp"
+            android:layout_toLeftOf="@id/not2"
+            android:ellipsize="marquee"
+            android:text="Vize"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/not1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="30sp"
+            android:layout_toLeftOf="@id/not2"
+            android:ellipsize="marquee"
+            android:layout_below="@id/baslik"
+            android:text="Vize"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/baslık2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:text="Final"
+            android:textSize="15sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/not2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:layout_below="@id/baslık2"
+            android:text="Final"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

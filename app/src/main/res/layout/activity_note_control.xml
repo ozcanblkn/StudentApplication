@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#0091D4"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+
+
+
+    <EditText
+        android:id="@+id/student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="ogrenci">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student"
+        android:layout_marginTop="10dp"
+        android:hint="vize">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/not2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/not"
+        android:layout_marginTop="10dp"
+        android:hint="final">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/not2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2E4078"
+        android:text="kaydet" />
+
+
+
+
+</RelativeLayout>

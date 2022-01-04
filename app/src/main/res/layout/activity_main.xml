@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0091D4"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="kullanıcı adı">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+
+        android:hint="şifre">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sifre"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2E4078"
+        android:text="öğrenci" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sifre"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2E4078"
+        android:text="öğretmen" />
+
+
+</RelativeLayout>
